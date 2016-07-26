@@ -1,2 +1,15 @@
 <div data-bind="template:'Ion_ProductBanner/productbanners'">
 </div>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "productbanner": {
+                    "component": "Ion_ProductBanner/js/view/productbanner"
+                }
+            }
+        }
+    }
+}
+</script>
